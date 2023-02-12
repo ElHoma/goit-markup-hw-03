@@ -22,7 +22,8 @@ h4,
 h5,
 h6,
 p,
-ul {
+ul,
+a {
   padding: 0;
   margin: 0;
 }
@@ -41,7 +42,6 @@ ul {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
 }
 
 img {
@@ -145,10 +145,10 @@ nav {
   font-size: 56px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
-  margin-top: 48px;
   background-color: var(--clr-brand);
   color: var(--clr-white);
   border: none;
@@ -214,11 +214,11 @@ nav {
 
 .img-list {
   display: flex;
+  gap: 24px;
 }
 
 .img-point {
   flex-basis: calc((100% - 48px) / 3);
-  gap: 24px;
 }
 
 /* Our team */
@@ -243,8 +243,11 @@ nav {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-person img {
+  margin-bottom: 32px;
+}
+
 .person-subtitle {
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -255,8 +258,8 @@ nav {
   background-color: var(--clr-theme);
 }
 
-.logo-foot {
-  color: var(--clr-smoke);
+.logo-footer {
+  margin-bottom: 16px;
 }
 
 .foot-text {
